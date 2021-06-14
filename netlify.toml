@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  functions = "functions/" 
+  publish = "static"
+
+[dev]
+  publish = "static"

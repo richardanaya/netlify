@@ -1,0 +1,23 @@
+{
+  "name": "abc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "static/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.59",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@netlify/functions": "^0.7.2",
+    "@types/koa": "^2.13.3",
+    "@types/koa-router": "^7.4.2",
+    "@vendia/serverless-express": "^4.3.9",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0"
+  }
+}
